@@ -1,7 +1,37 @@
 /* Write your CSS here. */
 
+* {
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+  font-size: 14px;
+  margin: 0px;
+}
+
+.header-nav__container {
+  background-color: #026AA7;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+}
+
+#alerts {
+  background-color: #CF513D;
+}
 
 
+
+
+
+@media screen and (max-width: 730px) {
+  #search {
+    display: none;
+  }
+  .boards-label {
+    display: none;
+  }
+} 
 
 
 
